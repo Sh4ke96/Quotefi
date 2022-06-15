@@ -1,7 +1,7 @@
 <template>
   <div class="app">
     <Header title="Quotefi Application"/>
-    <Quote/>
+    <Quote :quote="quote"/>
   </div>
 </template>
 
@@ -15,6 +15,16 @@ export default {
     Header,
     Quote
   },
+  data() {
+    return {
+      quote: {
+        content: 'Content goes here',
+        anime: 'Naruto',
+        character: 'Bobuszko'
+      },
+      quotes: []
+    }
+  }
 };
 </script>
 
@@ -22,7 +32,6 @@ export default {
 :root {
   --primary: #F15412;
   --secondary:#34B3F1;
-  --tertiary: #8A4FFF;
   --dark: #131A26;
   --light: #EEE;
   --grey: #848484;

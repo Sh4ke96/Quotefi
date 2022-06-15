@@ -1,9 +1,9 @@
 <template>
   <section class="quote">
-    <div class="quote-content">Content goes here...</div>
+    <div class="quote-content">{{ quote.content}}</div>
     <div class="quote-info">
-      <div class="quote-anime">Life</div>
-      <div class="quote-author">Myself</div>
+      <div class="quote-anime">{{ quote.anime}}</div>
+      <div class="quote-author">{{ quote.character}}</div>
     </div>
   </section>
 </template>
@@ -29,6 +29,13 @@ export default {
     color: var(--light);
     padding: 48px 32px;
     border-radius: 16px;
+
+    &::before,
+    &::after {
+        content: '"';
+        color: var(--grey);
+        margin: 0px 5px;
+    }
   }
 
   &-info {
@@ -54,7 +61,14 @@ export default {
         top: calc(100% - 32px);
         right: 0;
         transform: translateY(-50%);
+        background-color: var(--primary);
+    }
+
+    .quote-anime {
+        top: 0;
+        left: 0;
         background-color: var(--secondary);
+        color: var(--light);
     }
   }
 }
