@@ -1,24 +1,15 @@
-# quotefi
+# Quotefi
 
-## Project setup
-```
-npm install
-```
+Simple application written in Vue.js, which gets data from API and displays it on the page.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Live on Github Pages:
 
-### Compiles and minifies for production
-```
-npm run build
-```
+[https://sh4ke96.github.io/Portfolio/](https://sh4ke96.github.io/Portfolio/)
 
-### Lints and fixes files
-```
-npm run lint
-```
+## Built With
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+* [Vue]((https://vuejs.org/)
+* [SASS](https://sass-lang.com)
+
+## Author
+* Artur Michałek - [Sh4ke96](https://github.com/Sh4ke96)
