@@ -10,7 +10,7 @@ Simple application written in Vue.js, which gets data from API and displays it o
 
 * [Vue](https://vuejs.org/)
 * [SASS](https://sass-lang.com)
-* [AnimaChan] (https://animechan.vercel.app/)
+* [AnimaChan](https://animechan.vercel.app/)
 
 ## Author
 * Artur Michałek - [Sh4ke96](https://github.com/Sh4ke96)
