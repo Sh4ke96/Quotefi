@@ -8,7 +8,7 @@ Simple application written in Vue.js, which gets data from API and displays it o
 
 ## Built With
 
-* [Vue]((https://vuejs.org/)
+* [Vue](https://vuejs.org/)
 * [SASS](https://sass-lang.com)
 
 ## Author
