@@ -23,6 +23,7 @@ header {
     text-align: center;
     text-transform: uppercase;
     padding-bottom: 8px;
+    margin-bottom: 32px;
     border-bottom: 5px solid var(--primary);
   }
 }
