@@ -4,7 +4,7 @@ Simple application written in Vue.js, which gets data from API and displays it o
 
 ## Live on Github Pages:
 
-[https://ttt-application.netlify.app/](https://ttt-application.netlify.app/)
+[https://quotefi.netlify.app/](https://quotefi.netlify.app/)
 
 ## Built With
 
